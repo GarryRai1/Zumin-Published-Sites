@@ -18,7 +18,6 @@
   <meta name="twitter:description" content="Browse active MLS listings across Toronto, Mississauga, Brampton, Oakville and the GTA with Zumin Real Estate Centre." />
   
   
-    <script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"RealEstateListing","@id":"https://zuminrealestate.realli.ca/buy#W12944042","url":"https://zuminrealestate.realli.ca/listings/W12944042","name":"1591 WOODHENGE, Mississauga","address":{"@type":"PostalAddress","streetAddress":"1591 WOODHENGE, Mississauga"},"offers":{"@type":"Offer","price":"1.09","priceCurrency":"CAD","availability":"https://schema.org/InStock"},"numberOfRooms":3,"numberOfBathroomsTotal":3,"image":"https://cdn.repliers.io/IMG-W12944042_1.jpg"},{"@type":"RealEstateListing","@id":"https://zuminrealestate.realli.ca/buy#W13128710","url":"https://zuminrealestate.realli.ca/listings/W13128710","name":"531 Bridgeview, Oakville","address":{"@type":"PostalAddress","streetAddress":"531 Bridgeview, Oakville"},"offers":{"@type":"Offer","price":"5350","priceCurrency":"CAD","availability":"https://schema.org/InStock"},"numberOfRooms":4,"numberOfBathroomsTotal":4,"image":"https://cdn.repliers.io/IMG-W13128710_1.jpg"},{"@type":"RealEstateListing","@id":"https://zuminrealestate.realli.ca/buy#W13022162","url":"https://zuminrealestate.realli.ca/listings/W13022162","name":"1821 Christopher, Mississauga","address":{"@type":"PostalAddress","streetAddress":"1821 Christopher, Mississauga"},"offers":{"@type":"Offer","price":"1900","priceCurrency":"CAD","availability":"https://schema.org/InStock"},"numberOfRooms":2,"numberOfBathroomsTotal":1,"image":"https://cdn.repliers.io/IMG-W13022162_1.jpg"},{"@type":"RealEstateListing","@id":"https://zuminrealestate.realli.ca/buy#W13057648","url":"https://zuminrealestate.realli.ca/listings/W13057648","name":"60 Via Rosedale, Brampton","address":{"@type":"PostalAddress","streetAddress":"60 Via Rosedale, Brampton"},"offers":{"@type":"Offer","price":"470000","priceCurrency":"CAD","availability":"https://schema.org/InStock"},"numberOfRooms":2,"numberOfBathroomsTotal":1,"image":"https://cdn.repliers.io/IMG-W13057648_1.jpg"},{"@type":"RealEstateListing","@id":"https://zuminrealestate.realli.ca/buy#W12926664","url":"https://zuminrealestate.realli.ca/listings/W12926664","name":"453 Woodview, Burlington","address":{"@type":"PostalAddress","streetAddress":"453 Woodview, Burlington"},"offers":{"@type":"Offer","price":"689900","priceCurrency":"CAD","availability":"https://schema.org/InStock"},"numberOfRooms":3,"numberOfBathroomsTotal":2,"image":"https://cdn.repliers.io/IMG-W12926664_1.jpg"},{"@type":"RealEstateListing","@id":"https://zuminrealestate.realli.ca/buy#W13018374","url":"https://zuminrealestate.realli.ca/listings/W13018374","name":"669 Geneva Park, Burlington","address":{"@type":"PostalAddress","streetAddress":"669 Geneva Park, Burlington"},"offers":{"@type":"Offer","price":"1.28","priceCurrency":"CAD","availability":"https://schema.org/InStock"},"numberOfRooms":4,"numberOfBathroomsTotal":3,"image":"https://cdn.repliers.io/IMG-W13018374_1.jpg"}]}</script>
   
   
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -43,133 +42,220 @@
 </head>
 <body>
   
-  <header style="background:var(--surface, #ffffff);color:var(--ink, #111827);padding:0.75rem 1.5rem;display:flex;align-items:center;gap:1rem;border-bottom:1px solid #e5e7eb;position:sticky;top:0;z-index:100;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);">
+  <header style="background:#ffffff;color:#111111;padding:0.75rem 1.5rem;display:flex;align-items:center;gap:1rem;border-bottom:1px solid #e5e7eb;position:sticky;top:0;z-index:100;backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);">
     <a href="/" style="display:flex;align-items:center;gap:0.5rem;text-decoration:none;color:inherit;">
-      
-      
+      <img src="https://rmnnyywyaymriplnijov.supabase.co/storage/v1/object/public/tenant-logos/zumin-re-logo-colour.png" alt="" style="height:28px;width:auto;" />
+      <span style="font-weight:700;font-size:0.875rem;">My Site</span>
     </a>
     <nav style="flex:1;display:flex;justify-content:center;gap:1.25rem;">
-      <a href="/buy" style="font-size:0.8125rem;color:var(--ink, #111827);opacity:0.8;text-decoration:none;">Buy</a><a href="/sell" style="font-size:0.8125rem;color:var(--ink, #111827);opacity:0.8;text-decoration:none;">Sell</a><a href="/renovate" style="font-size:0.8125rem;color:var(--ink, #111827);opacity:0.8;text-decoration:none;">Renovate</a><a href="/advantage-you" style="font-size:0.8125rem;color:var(--ink, #111827);opacity:0.8;text-decoration:none;">Advantage</a>
+      <a href="/buy" style="font-size:0.8125rem;color:#111111;opacity:0.8;text-decoration:none;">Buy</a><a href="/sell" style="font-size:0.8125rem;color:#111111;opacity:0.8;text-decoration:none;">Sell</a><a href="/rent" style="font-size:0.8125rem;color:#111111;opacity:0.8;text-decoration:none;">Rent</a><a href="/renovate" style="font-size:0.8125rem;color:#111111;opacity:0.8;text-decoration:none;">Renovate</a><a href="/advantage" style="font-size:0.8125rem;color:#111111;opacity:0.8;text-decoration:none;">Advantage</a>
     </nav>
-    <div style="display:flex;gap:0.5rem;">
-      
+    <div style="display:flex;gap:0.5rem;" class="__header-ctas">
+      <a href="https://connect.zuminrealestate.ca" style="font-size:0.8125rem;font-weight:600;padding:0.5rem 1rem;border-radius:9999px;text-decoration:none;cursor:pointer;border:1px solid currentColor;color:#111111;background:transparent;">Sign In</a><a href="/sell" style="font-size:0.8125rem;font-weight:600;padding:0.5rem 1rem;border-radius:9999px;text-decoration:none;cursor:pointer;background:var(--brand, #FDB913);color:#000;">Free Evaluation</a>
     </div>
+    <button
+      id="__nav_davfn_btn"
+      type="button"
+      aria-label="Open menu"
+      aria-expanded="false"
+      aria-controls="__nav_davfn_drawer"
+      onclick="(function(){var d=document.getElementById('__nav_davfn_drawer');var b=document.getElementById('__nav_davfn_btn');var open=d.getAttribute('data-open')==='1';d.setAttribute('data-open',open?'':'1');b.setAttribute('aria-expanded',open?'false':'true');document.body.style.overflow=open?'':'hidden';})()"
+      style="display:none;flex-direction:column;justify-content:center;align-items:center;gap:5px;width:36px;height:36px;background:transparent;border:0;cursor:pointer;padding:4px;flex-shrink:0;"
+    >
+      <span style="display:block;width:22px;height:2px;background:#111111;border-radius:2px;"></span>
+      <span style="display:block;width:22px;height:2px;background:#111111;border-radius:2px;"></span>
+      <span style="display:block;width:22px;height:2px;background:#111111;border-radius:2px;"></span>
+    </button>
   </header>
+  <div
+    id="__nav_davfn_drawer"
+    data-open=""
+    style="display:none;position:fixed;top:0;left:0;right:0;bottom:0;z-index:200;background:#ffffff;color:#111111;flex-direction:column;padding:1.25rem 1.5rem;overflow-y:auto;"
+  >
+    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:2rem;">
+      <a href="/" style="display:flex;align-items:center;gap:0.5rem;text-decoration:none;color:inherit;">
+        <img src="https://rmnnyywyaymriplnijov.supabase.co/storage/v1/object/public/tenant-logos/zumin-re-logo-colour.png" alt="" style="height:28px;width:auto;" />
+        <span style="font-weight:700;font-size:0.875rem;">My Site</span>
+      </a>
+      <button
+        type="button"
+        aria-label="Close menu"
+        onclick="(function(){var d=document.getElementById('__nav_davfn_drawer');var b=document.getElementById('__nav_davfn_btn');d.setAttribute('data-open','');b.setAttribute('aria-expanded','false');document.body.style.overflow='';})()"
+        style="background:transparent;border:0;cursor:pointer;color:#111111;font-size:1.5rem;line-height:1;padding:4px;"
+      >&times;</button>
+    </div>
+    <nav style="display:flex;flex-direction:column;gap:0;">
+      <a href="/buy" style="font-size:1.125rem;font-weight:600;color:#111111;text-decoration:none;padding:0.875rem 0;border-bottom:1px solid rgba(255,255,255,0.08);">Buy</a><a href="/sell" style="font-size:1.125rem;font-weight:600;color:#111111;text-decoration:none;padding:0.875rem 0;border-bottom:1px solid rgba(255,255,255,0.08);">Sell</a><a href="/rent" style="font-size:1.125rem;font-weight:600;color:#111111;text-decoration:none;padding:0.875rem 0;border-bottom:1px solid rgba(255,255,255,0.08);">Rent</a><a href="/renovate" style="font-size:1.125rem;font-weight:600;color:#111111;text-decoration:none;padding:0.875rem 0;border-bottom:1px solid rgba(255,255,255,0.08);">Renovate</a><a href="/advantage" style="font-size:1.125rem;font-weight:600;color:#111111;text-decoration:none;padding:0.875rem 0;border-bottom:1px solid rgba(255,255,255,0.08);">Advantage</a>
+    </nav>
+    <div style="display:flex;flex-direction:column;gap:0.75rem;margin-top:2rem;"><a href="https://connect.zuminrealestate.ca" style="font-size:0.8125rem;font-weight:600;padding:0.5rem 1rem;border-radius:9999px;text-decoration:none;cursor:pointer;border:1px solid currentColor;color:#111111;background:transparent;display:block;text-align:center;padding:0.875rem 1.5rem;">Sign In</a><a href="/sell" style="font-size:0.8125rem;font-weight:600;padding:0.5rem 1rem;border-radius:9999px;text-decoration:none;cursor:pointer;background:var(--brand, #FDB913);color:#000;display:block;text-align:center;padding:0.875rem 1.5rem;">Free Evaluation</a></div>
+  </div>
+  <style>
+    @media (max-width: 768px) {
+      #__nav_davfn_btn { display: flex !important; }
+      .__header-ctas { display: none !important; }
+    }
+    #__nav_davfn_drawer[data-open="1"] { display: flex !important; }
+  </style>
   <main>
-    <section data-section-id="buy-hero" style="position:relative;overflow:hidden;background-color:#0a0a0a;background-image:url('https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=1600');background-size:cover;background-position:center;min-height:85vh;padding-top:0;padding-bottom:0;font-family:Inter;"><div style="position:absolute;inset:0;background:linear-gradient(135deg,rgba(0,0,0,0.78) 0%,rgba(0,0,0,0.45) 100%);pointer-events:none;z-index:0;"></div><div style="position:relative;z-index:1;">
+    <section data-section-id="buy-hero" style="position:relative;overflow:hidden;background-color:#0a0a0a;background-image:url('https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=1920');background-size:cover;background-position:center;min-height:85vh;padding-top:0;padding-bottom:0;"><div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(10,10,10,0.55) 0%,rgba(10,10,10,0.45) 40%,rgba(10,10,10,0.65) 100%);pointer-events:none;z-index:0;"></div><div style="position:relative;z-index:1;">
         <div style="max-width:1200px;margin:0 auto;padding:6rem 1.5rem;display:flex;align-items:center;min-height:85vh;">
           <div style="max-width:640px;">
-            <p style="font-size:0.75rem;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:var(--brand,#FDB913);margin:0 0 1rem;">GTA & PEEL REGION</p><h1 style="font-family:'Instrument Serif',Georgia,serif;font-size:clamp(2.5rem,5vw,4rem);font-weight:400;letter-spacing:-0.02em;color:#ffffff;margin:0 0 1.25rem;line-height:1.15;">Find your next home.</h1><p style="font-size:1.125rem;color:rgba(255,255,255,0.75);margin:0 0 2rem;line-height:1.7;">Browse thousands of active listings across GTA and Peel Region. Zumin Real Estate Centre agents know every neighbourhood — and they'll negotiate to win.</p>
-            <div style="display:flex;gap:1rem;flex-wrap:wrap;margin-top:0;"><a href="/listings" style="display:inline-flex;align-items:center;gap:8px;padding:18px 36px;border-radius:9999px;font-weight:500;font-size:1rem;background:var(--brand,#FDB913);color:#000000;text-decoration:none;cursor:pointer;border:0;">Browse Listings</a><a href="/agents" style="display:inline-flex;align-items:center;gap:8px;padding:18px 36px;border-radius:9999px;font-weight:500;font-size:1rem;text-decoration:none;cursor:pointer;background:#ffffff;color:#000000;border:0;">Talk to an Agent</a></div>
+            <p style="font-size:0.75rem;font-weight:600;letter-spacing:0.08em;text-transform:uppercase;color:var(--brand,#FDB913);margin:0 0 1rem;">Buying</p><h1 style="font-family:'Instrument Serif',Georgia,serif;font-size:clamp(2.5rem,5vw,4rem);font-weight:400;letter-spacing:-0.02em;color:#ffffff;margin:0 0 1.25rem;line-height:1.15;">Find your next home.</h1><p style="font-size:1.125rem;color:rgba(255,255,255,0.65);margin:0 0 2rem;line-height:1.7;">Search live MLS listings, get pre-approved, and move with confidence — guided by local experts who know the GTA.</p>
+            <div style="display:flex;gap:1rem;flex-wrap:wrap;margin-top:0;"><a href="/listings" style="display:inline-flex;align-items:center;gap:8px;padding:18px 36px;border-radius:9999px;font-weight:500;font-size:1rem;background:var(--brand,#FDB913);color:#000000;text-decoration:none;cursor:pointer;border:0;">Browse Homes</a><a href="/financing" style="display:inline-flex;align-items:center;gap:8px;padding:18px 36px;border-radius:9999px;font-weight:500;font-size:1rem;text-decoration:none;cursor:pointer;background:#ffffff;color:#000000;border:0;">Get Pre-Approved</a></div>
             
           </div>
         </div></div></section>
-<section data-section-id="buy-listings" style="position:relative;overflow:hidden;background-color:#f9fafb;padding-top:6rem;padding-bottom:6rem;font-family:Inter;"><div style="position:relative;z-index:1;">
+<section data-section-id="buy-stats" style="position:relative;overflow:hidden;background-color:#1a1a1a;padding-top:4rem;padding-bottom:4rem;"><div style="position:relative;z-index:1;">
         <div style="max-width:1200px;margin:0 auto;padding:0 1.5rem;">
-          <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:1rem;">
-            <div style="border-radius:0.75rem;border:1px solid #e5e7eb;overflow:hidden;background:#fff;display:flex;flex-direction:column;"><img src="https://cdn.repliers.io/IMG-W12944042_1.jpg" alt="1591 WOODHENGE, Mississauga" style="width:100%;aspect-ratio:16/10;object-fit:cover;display:block;" loading="lazy" /><div style="padding:0.75rem;flex:1;"><div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:0.25rem;"><span style="font-size:0.875rem;font-weight:700;color:#111111;">$1.09M</span><span style="font-size:0.5625rem;font-weight:600;text-transform:uppercase;padding:0.0625rem 0.375rem;border-radius:0.25rem;background:#d1fae5;color:#065f46;">active</span></div><p style="font-size:0.75rem;color:#6b7280;margin:0 0 0.125rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">1591 WOODHENGE, Mississauga</p><div style="display:flex;gap:0.75rem;font-size:0.625rem;color:#6b7280;opacity:0.7;"><span>3 bd</span><span>3 ba</span></div></div>
-                <div style="display:flex;gap:0.375rem;padding:0.5rem 0.75rem 0.75rem;border-top:1px solid #f3f4f6;">
-                  <a href="/listings/W12944042" style="flex:1;display:inline-block;text-align:center;padding:0.4375rem 0.625rem;border-radius:0.375rem;font-size:0.6875rem;font-weight:600;background:var(--brand, #FDB913);color:#fff;text-decoration:none;">View Details</a>
-                  <a href="/rate-the-room?property=W12944042" style="flex:1;display:inline-block;text-align:center;padding:0.4375rem 0.625rem;border-radius:0.375rem;font-size:0.6875rem;font-weight:600;border:1px solid #e5e7eb;color:#111111;background:transparent;text-decoration:none;">Rate This Room</a>
-                </div></div><div style="border-radius:0.75rem;border:1px solid #e5e7eb;overflow:hidden;background:#fff;display:flex;flex-direction:column;"><img src="https://cdn.repliers.io/IMG-W13128710_1.jpg" alt="531 Bridgeview, Oakville" style="width:100%;aspect-ratio:16/10;object-fit:cover;display:block;" loading="lazy" /><div style="padding:0.75rem;flex:1;"><div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:0.25rem;"><span style="font-size:0.875rem;font-weight:700;color:#111111;">$5,350</span><span style="font-size:0.5625rem;font-weight:600;text-transform:uppercase;padding:0.0625rem 0.375rem;border-radius:0.25rem;background:#d1fae5;color:#065f46;">active</span></div><p style="font-size:0.75rem;color:#6b7280;margin:0 0 0.125rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">531 Bridgeview, Oakville</p><div style="display:flex;gap:0.75rem;font-size:0.625rem;color:#6b7280;opacity:0.7;"><span>4 bd</span><span>4 ba</span></div></div>
-                <div style="display:flex;gap:0.375rem;padding:0.5rem 0.75rem 0.75rem;border-top:1px solid #f3f4f6;">
-                  <a href="/listings/W13128710" style="flex:1;display:inline-block;text-align:center;padding:0.4375rem 0.625rem;border-radius:0.375rem;font-size:0.6875rem;font-weight:600;background:var(--brand, #FDB913);color:#fff;text-decoration:none;">View Details</a>
-                  <a href="/rate-the-room?property=W13128710" style="flex:1;display:inline-block;text-align:center;padding:0.4375rem 0.625rem;border-radius:0.375rem;font-size:0.6875rem;font-weight:600;border:1px solid #e5e7eb;color:#111111;background:transparent;text-decoration:none;">Rate This Room</a>
-                </div></div><div style="border-radius:0.75rem;border:1px solid #e5e7eb;overflow:hidden;background:#fff;display:flex;flex-direction:column;"><img src="https://cdn.repliers.io/IMG-W13022162_1.jpg" alt="1821 Christopher, Mississauga" style="width:100%;aspect-ratio:16/10;object-fit:cover;display:block;" loading="lazy" /><div style="padding:0.75rem;flex:1;"><div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:0.25rem;"><span style="font-size:0.875rem;font-weight:700;color:#111111;">$1,900</span><span style="font-size:0.5625rem;font-weight:600;text-transform:uppercase;padding:0.0625rem 0.375rem;border-radius:0.25rem;background:#d1fae5;color:#065f46;">active</span></div><p style="font-size:0.75rem;color:#6b7280;margin:0 0 0.125rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">1821 Christopher, Mississauga</p><div style="display:flex;gap:0.75rem;font-size:0.625rem;color:#6b7280;opacity:0.7;"><span>2 bd</span><span>1 ba</span></div></div>
-                <div style="display:flex;gap:0.375rem;padding:0.5rem 0.75rem 0.75rem;border-top:1px solid #f3f4f6;">
-                  <a href="/listings/W13022162" style="flex:1;display:inline-block;text-align:center;padding:0.4375rem 0.625rem;border-radius:0.375rem;font-size:0.6875rem;font-weight:600;background:var(--brand, #FDB913);color:#fff;text-decoration:none;">View Details</a>
-                  <a href="/rate-the-room?property=W13022162" style="flex:1;display:inline-block;text-align:center;padding:0.4375rem 0.625rem;border-radius:0.375rem;font-size:0.6875rem;font-weight:600;border:1px solid #e5e7eb;color:#111111;background:transparent;text-decoration:none;">Rate This Room</a>
-                </div></div><div style="border-radius:0.75rem;border:1px solid #e5e7eb;overflow:hidden;background:#fff;display:flex;flex-direction:column;"><img src="https://cdn.repliers.io/IMG-W13057648_1.jpg" alt="60 Via Rosedale, Brampton" style="width:100%;aspect-ratio:16/10;object-fit:cover;display:block;" loading="lazy" /><div style="padding:0.75rem;flex:1;"><div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:0.25rem;"><span style="font-size:0.875rem;font-weight:700;color:#111111;">$470,000</span><span style="font-size:0.5625rem;font-weight:600;text-transform:uppercase;padding:0.0625rem 0.375rem;border-radius:0.25rem;background:#d1fae5;color:#065f46;">active</span></div><p style="font-size:0.75rem;color:#6b7280;margin:0 0 0.125rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">60 Via Rosedale, Brampton</p><div style="display:flex;gap:0.75rem;font-size:0.625rem;color:#6b7280;opacity:0.7;"><span>2 bd</span><span>1 ba</span></div></div>
-                <div style="display:flex;gap:0.375rem;padding:0.5rem 0.75rem 0.75rem;border-top:1px solid #f3f4f6;">
-                  <a href="/listings/W13057648" style="flex:1;display:inline-block;text-align:center;padding:0.4375rem 0.625rem;border-radius:0.375rem;font-size:0.6875rem;font-weight:600;background:var(--brand, #FDB913);color:#fff;text-decoration:none;">View Details</a>
-                  <a href="/rate-the-room?property=W13057648" style="flex:1;display:inline-block;text-align:center;padding:0.4375rem 0.625rem;border-radius:0.375rem;font-size:0.6875rem;font-weight:600;border:1px solid #e5e7eb;color:#111111;background:transparent;text-decoration:none;">Rate This Room</a>
-                </div></div><div style="border-radius:0.75rem;border:1px solid #e5e7eb;overflow:hidden;background:#fff;display:flex;flex-direction:column;"><img src="https://cdn.repliers.io/IMG-W12926664_1.jpg" alt="453 Woodview, Burlington" style="width:100%;aspect-ratio:16/10;object-fit:cover;display:block;" loading="lazy" /><div style="padding:0.75rem;flex:1;"><div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:0.25rem;"><span style="font-size:0.875rem;font-weight:700;color:#111111;">$689,900</span><span style="font-size:0.5625rem;font-weight:600;text-transform:uppercase;padding:0.0625rem 0.375rem;border-radius:0.25rem;background:#d1fae5;color:#065f46;">active</span></div><p style="font-size:0.75rem;color:#6b7280;margin:0 0 0.125rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">453 Woodview, Burlington</p><div style="display:flex;gap:0.75rem;font-size:0.625rem;color:#6b7280;opacity:0.7;"><span>3 bd</span><span>2 ba</span></div></div>
-                <div style="display:flex;gap:0.375rem;padding:0.5rem 0.75rem 0.75rem;border-top:1px solid #f3f4f6;">
-                  <a href="/listings/W12926664" style="flex:1;display:inline-block;text-align:center;padding:0.4375rem 0.625rem;border-radius:0.375rem;font-size:0.6875rem;font-weight:600;background:var(--brand, #FDB913);color:#fff;text-decoration:none;">View Details</a>
-                  <a href="/rate-the-room?property=W12926664" style="flex:1;display:inline-block;text-align:center;padding:0.4375rem 0.625rem;border-radius:0.375rem;font-size:0.6875rem;font-weight:600;border:1px solid #e5e7eb;color:#111111;background:transparent;text-decoration:none;">Rate This Room</a>
-                </div></div><div style="border-radius:0.75rem;border:1px solid #e5e7eb;overflow:hidden;background:#fff;display:flex;flex-direction:column;"><img src="https://cdn.repliers.io/IMG-W13018374_1.jpg" alt="669 Geneva Park, Burlington" style="width:100%;aspect-ratio:16/10;object-fit:cover;display:block;" loading="lazy" /><div style="padding:0.75rem;flex:1;"><div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:0.25rem;"><span style="font-size:0.875rem;font-weight:700;color:#111111;">$1.28M</span><span style="font-size:0.5625rem;font-weight:600;text-transform:uppercase;padding:0.0625rem 0.375rem;border-radius:0.25rem;background:#d1fae5;color:#065f46;">active</span></div><p style="font-size:0.75rem;color:#6b7280;margin:0 0 0.125rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">669 Geneva Park, Burlington</p><div style="display:flex;gap:0.75rem;font-size:0.625rem;color:#6b7280;opacity:0.7;"><span>4 bd</span><span>3 ba</span></div></div>
-                <div style="display:flex;gap:0.375rem;padding:0.5rem 0.75rem 0.75rem;border-top:1px solid #f3f4f6;">
-                  <a href="/listings/W13018374" style="flex:1;display:inline-block;text-align:center;padding:0.4375rem 0.625rem;border-radius:0.375rem;font-size:0.6875rem;font-weight:600;background:var(--brand, #FDB913);color:#fff;text-decoration:none;">View Details</a>
-                  <a href="/rate-the-room?property=W13018374" style="flex:1;display:inline-block;text-align:center;padding:0.4375rem 0.625rem;border-radius:0.375rem;font-size:0.6875rem;font-weight:600;border:1px solid #e5e7eb;color:#111111;background:transparent;text-decoration:none;">Rate This Room</a>
-                </div></div>
+          <div style="display:grid;grid-template-columns:repeat(4,1fr);background:var(--ink,#000000);border-radius:1rem;overflow:hidden;">
+            <div style="padding:2.5rem 1.5rem;text-align:center;border-right:1px solid rgba(255,255,255,0.08);"><div style="font-family:'Instrument Serif',Georgia,serif;font-size:clamp(1.75rem,3vw,2.5rem);font-weight:400;color:var(--brand,#FDB913);margin-bottom:4px;">25+</div><div style="font-size:0.813rem;color:rgba(255,255,255,0.6);">Expert Agents</div></div><div style="padding:2.5rem 1.5rem;text-align:center;border-right:1px solid rgba(255,255,255,0.08);"><div style="font-family:'Instrument Serif',Georgia,serif;font-size:clamp(1.75rem,3vw,2.5rem);font-weight:400;color:var(--brand,#FDB913);margin-bottom:4px;">$1B+</div><div style="font-size:0.813rem;color:rgba(255,255,255,0.6);">Transactions</div></div><div style="padding:2.5rem 1.5rem;text-align:center;border-right:1px solid rgba(255,255,255,0.08);"><div style="font-family:'Instrument Serif',Georgia,serif;font-size:clamp(1.75rem,3vw,2.5rem);font-weight:400;color:var(--brand,#FDB913);margin-bottom:4px;">2,000+</div><div style="font-size:0.813rem;color:rgba(255,255,255,0.6);">Clients Served</div></div><div style="padding:2.5rem 1.5rem;text-align:center;"><div style="font-family:'Instrument Serif',Georgia,serif;font-size:clamp(1.75rem,3vw,2.5rem);font-weight:400;color:var(--brand,#FDB913);margin-bottom:4px;">4.9★</div><div style="font-size:0.813rem;color:rgba(255,255,255,0.6);">Google Rating</div></div>
           </div>
-          
-            <div style="text-align:center;margin-top:2rem;">
-              <a href="/buy" style="display:inline-flex;align-items:center;gap:0.375rem;padding:0.75rem 1.5rem;border-radius:0.5rem;font-size:0.875rem;font-weight:600;background:var(--brand, #FDB913);color:#fff;text-decoration:none;">View All Listings &rarr;</a>
+        </div></div></section>
+<section data-section-id="buy-journey" style="position:relative;overflow:hidden;background-color:#ffffff;padding-top:8rem;padding-bottom:8rem;"><div style="position:relative;z-index:1;">
+        <div style="max-width:1200px;margin:0 auto;padding:0 1.5rem;">
+          <div style="margin-bottom:3rem;"><h2 style="font-family:'Instrument Serif',Georgia,serif;font-size:clamp(2rem,4vw,3rem);font-weight:400;letter-spacing:-0.01em;color:var(--ink,#000000);">Your buying journey, step by step</h2></div>
+          <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:2rem;">
+            <div style="background:#ffffff;border:1px solid #e0e0e0;border-radius:1rem;padding:2rem;transition:border-color 0.2s;"><div style="width:3rem;height:3rem;background:var(--brand-light,#fef9e7);border-radius:0.625rem;display:flex;align-items:center;justify-content:center;margin-bottom:1rem;color:var(--brand,#FDB913);"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg></div><h3 style="font-family:'IBM Plex Sans',sans-serif;font-size:1.0625rem;font-weight:600;color:var(--ink,#000000);margin-bottom:0.5rem;">Property search</h3><p style="font-size:0.875rem;color:var(--ink-secondary,#333333);line-height:1.6;">Browse live GTA listings filtered by city, price, beds, and type. Every listing scored for renovation potential.</p></div><div style="background:#ffffff;border:1px solid #e0e0e0;border-radius:1rem;padding:2rem;transition:border-color 0.2s;"><div style="width:3rem;height:3rem;background:var(--brand-light,#fef9e7);border-radius:0.625rem;display:flex;align-items:center;justify-content:center;margin-bottom:1rem;color:var(--brand,#FDB913);"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg></div><h3 style="font-family:'IBM Plex Sans',sans-serif;font-size:1.0625rem;font-weight:600;color:var(--ink,#000000);margin-bottom:0.5rem;">Private showings</h3><p style="font-size:0.875rem;color:var(--ink-secondary,#333333);line-height:1.6;">Your agent books showings fast. No pressure, no rush — see the homes that actually fit your needs.</p></div><div style="background:#ffffff;border:1px solid #e0e0e0;border-radius:1rem;padding:2rem;transition:border-color 0.2s;"><div style="width:3rem;height:3rem;background:var(--brand-light,#fef9e7);border-radius:0.625rem;display:flex;align-items:center;justify-content:center;margin-bottom:1rem;color:var(--brand,#FDB913);"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg></div><h3 style="font-family:'IBM Plex Sans',sans-serif;font-size:1.0625rem;font-weight:600;color:var(--ink,#000000);margin-bottom:0.5rem;">Offer strategy</h3><p style="font-size:0.875rem;color:var(--ink-secondary,#333333);line-height:1.6;">Data-driven pricing, competitive offers, and negotiation expertise from agents who know the local market.</p></div><div style="background:#ffffff;border:1px solid #e0e0e0;border-radius:1rem;padding:2rem;transition:border-color 0.2s;"><div style="width:3rem;height:3rem;background:var(--brand-light,#fef9e7);border-radius:0.625rem;display:flex;align-items:center;justify-content:center;margin-bottom:1rem;color:var(--brand,#FDB913);"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="7.5" cy="15.5" r="5.5"/><path d="m21 2-9.6 9.6"/><path d="m15.5 7.5 3 3L22 7l-3-3"/></svg></div><h3 style="font-family:'IBM Plex Sans',sans-serif;font-size:1.0625rem;font-weight:600;color:var(--ink,#000000);margin-bottom:0.5rem;">Close with confidence</h3><p style="font-size:0.875rem;color:var(--ink-secondary,#333333);line-height:1.6;">Full closing support from offer to keys. We stay with you through every condition, inspection, and signature.</p></div>
+          </div>
+        </div></div></section>
+<section data-section-id="buy-mid-cta" style="position:relative;overflow:hidden;background-color:#0a0a0a;padding-top:6rem;padding-bottom:6rem;"><div style="position:relative;z-index:1;">
+        <div style="max-width:1200px;margin:0 auto;padding:0 1.5rem;">
+          <div style="background:#0a0a0a;border-radius:1.5rem;padding:3.5rem 3rem;display:flex;align-items:center;justify-content:space-between;gap:2rem;flex-wrap:wrap;">
+            <div style="flex:1;min-width:0;"><h3 style="font-family:'Instrument Serif',Georgia,serif;font-size:clamp(1.5rem,3vw,2rem);font-weight:400;color:#ffffff;margin:0 0 0.5rem;">Found a home you love?</h3><p style="font-size:1rem;color:rgba(255,255,255,0.7);margin:0;">Get pre-approved and move fast. Buyers with financing in hand win more offers — and close quicker.</p></div>
+            
+          </div>
+        </div></div></section>
+<section data-section-id="buy-reviews" style="position:relative;overflow:hidden;background-color:#ffffff;padding-top:6rem;padding-bottom:6rem;"><div style="position:relative;z-index:1;">
+          <div style="max-width:1200px;margin:0 auto;padding:0 1.5rem;">
+            <div style="text-align:center;margin-bottom:3rem;"><h2 style="font-family:'Instrument Serif',Georgia,serif;font-size:clamp(2rem,4vw,3rem);font-weight:400;letter-spacing:-0.01em;color:var(--ink,#000000);">Buyers who moved with Zumin</h2></div>
+            <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:2rem;">
+              <div style="background:#ffffff;border:1px solid #e0e0e0;border-radius:1rem;padding:2rem;"><div style="color:var(--brand,#FDB913);font-size:1.125rem;margin-bottom:1rem;">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p style="font-size:1rem;line-height:1.7;color:#000000;margin:0 0 1.25rem;font-style:italic;">"Zumin Real Estate impressed me with their professionalism and efficiency throughout the home-buying process. Their agents were knowledgeable, responsive, and guided me seamlessly from property search to closing."</p><div style="font-weight:600;font-size:0.938rem;color:#000000;margin-bottom:2px;">S.S.</div><div style="font-size:0.813rem;color:#666666;">Ancaster</div></div><div style="background:#ffffff;border:1px solid #e0e0e0;border-radius:1rem;padding:2rem;"><div style="color:var(--brand,#FDB913);font-size:1.125rem;margin-bottom:1rem;">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p style="font-size:1rem;line-height:1.7;color:#000000;margin:0 0 1.25rem;font-style:italic;">"My family and I have recently had the pleasure of working with our agent at Zumin. From the very moment we met, we felt like family. The dedication, commitment and flexibility were outstanding."</p><div style="font-weight:600;font-size:0.938rem;color:#000000;margin-bottom:2px;">T.D.P.</div><div style="font-size:0.813rem;color:#666666;">Toronto</div></div><div style="background:#ffffff;border:1px solid #e0e0e0;border-radius:1rem;padding:2rem;"><div style="color:var(--brand,#FDB913);font-size:1.125rem;margin-bottom:1rem;">&#9733;&#9733;&#9733;&#9733;&#9733;</div><p style="font-size:1rem;line-height:1.7;color:#000000;margin:0 0 1.25rem;font-style:italic;">"Always the Best Experience with Zumin! They always go above and beyond to support their clients and make you feel like family! 10/10 Highly Recommended!!!"</p><div style="font-weight:600;font-size:0.938rem;color:#000000;margin-bottom:2px;">J.K.</div><div style="font-size:0.813rem;color:#666666;">Toronto</div></div>
             </div>
-        </div></div></section>
-<section data-section-id="buy-features" style="position:relative;overflow:hidden;background-color:#ffffff;padding-top:8rem;padding-bottom:8rem;font-family:Inter;"><div style="position:relative;z-index:1;">
-        <div style="max-width:1200px;margin:0 auto;padding:0 1.5rem;">
-          <div style="margin-bottom:3rem;"><h2 style="font-family:'Instrument Serif',Georgia,serif;font-size:clamp(2rem,4vw,3rem);font-weight:400;letter-spacing:-0.01em;color:var(--ink,#000000);">Why Buy With Zumin</h2></div>
-          <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:2rem;">
-            <div style="background:#ffffff;border:1px solid #e0e0e0;border-radius:1rem;padding:2rem;transition:border-color 0.2s;"><div style="width:3rem;height:3rem;background:var(--brand-light,#fef9e7);border-radius:0.625rem;display:flex;align-items:center;justify-content:center;margin-bottom:1rem;font-size:1.25rem;">trending-up</div><h3 style="font-family:'IBM Plex Sans',sans-serif;font-size:1.0625rem;font-weight:600;color:var(--ink,#000000);margin-bottom:0.5rem;">Real Market Intelligence</h3><p style="font-size:0.875rem;color:var(--ink-secondary,#333333);line-height:1.6;">Our agents track sold comps, days on market, and neighbourhood trends daily. You get data-driven advice, not guesses.</p></div><div style="background:#ffffff;border:1px solid #e0e0e0;border-radius:1rem;padding:2rem;transition:border-color 0.2s;"><div style="width:3rem;height:3rem;background:var(--brand-light,#fef9e7);border-radius:0.625rem;display:flex;align-items:center;justify-content:center;margin-bottom:1rem;font-size:1.25rem;">wrench</div><h3 style="font-family:'IBM Plex Sans',sans-serif;font-size:1.0625rem;font-weight:600;color:var(--ink,#000000);margin-bottom:0.5rem;">RNPL® Reno Boost</h3><p style="font-size:0.875rem;color:var(--ink-secondary,#333333);line-height:1.6;">See RNPL® renovation scores on every listing. Buy a home with upside and fund the renovation on a deferred plan.</p></div><div style="background:#ffffff;border:1px solid #e0e0e0;border-radius:1rem;padding:2rem;transition:border-color 0.2s;"><div style="width:3rem;height:3rem;background:var(--brand-light,#fef9e7);border-radius:0.625rem;display:flex;align-items:center;justify-content:center;margin-bottom:1rem;font-size:1.25rem;">shield</div><h3 style="font-family:'IBM Plex Sans',sans-serif;font-size:1.0625rem;font-weight:600;color:var(--ink,#000000);margin-bottom:0.5rem;">Negotiation That Wins</h3><p style="font-size:0.875rem;color:var(--ink-secondary,#333333);line-height:1.6;">Multiple offer situations, conditional strategies, firm vs. conditional — our agents have seen every scenario and know how to position your offer.</p></div><div style="background:#ffffff;border:1px solid #e0e0e0;border-radius:1rem;padding:2rem;transition:border-color 0.2s;"><div style="width:3rem;height:3rem;background:var(--brand-light,#fef9e7);border-radius:0.625rem;display:flex;align-items:center;justify-content:center;margin-bottom:1rem;font-size:1.25rem;">users</div><h3 style="font-family:'IBM Plex Sans',sans-serif;font-size:1.0625rem;font-weight:600;color:var(--ink,#000000);margin-bottom:0.5rem;">Full Professional Network</h3><p style="font-size:0.875rem;color:var(--ink-secondary,#333333);line-height:1.6;">Lawyers, inspectors, mortgage specialists — we connect you with trusted professionals so nothing slows your deal down.</p></div>
-          </div>
-        </div></div></section>
-<section data-section-id="buy-cta" style="position:relative;overflow:hidden;background-color:#0f0f0f;padding-top:6rem;padding-bottom:6rem;font-family:Inter;"><div style="position:relative;z-index:1;">
-        <div style="max-width:1200px;margin:0 auto;padding:0 1.5rem;">
-          <div style="background:#0f0f0f;border-radius:1.5rem;padding:3.5rem 3rem;display:flex;align-items:center;justify-content:space-between;gap:2rem;flex-wrap:wrap;">
-            <div style="flex:1;min-width:0;"></div>
-            <div style="flex-shrink:0;"><a href="/contact" style="display:inline-flex;align-items:center;padding:18px 36px;border-radius:9999px;font-weight:500;font-size:1rem;background:var(--brand,#FDB913);color:var(--ink,#000000);text-decoration:none;white-space:nowrap;flex-shrink:0;">Get Started</a><a href="/agents" style="display:inline-flex;align-items:center;padding:18px 36px;border-radius:9999px;font-weight:500;font-size:1rem;background:var(--brand,#FDB913);color:var(--ink,#000000);text-decoration:none;white-space:nowrap;flex-shrink:0;">Meet Our Agents</a></div>
-          </div>
-        </div></div></section>
-<section data-section-id="buy-legal" style="position:relative;overflow:hidden;background-color:#0f0f0f;padding-top:2rem;padding-bottom:2rem;font-family:Inter;"><div style="position:relative;z-index:1;">
-        <div style="max-width:1200px;margin:0 auto;padding:1.5rem;">
-          
-          
-          <div style="display:flex;flex-wrap:wrap;gap:0.25rem 1rem;font-size:0.625rem;color:rgba(255,255,255,0.45);opacity:0.7;">
+          </div></div></section>
+<section data-section-id="buy-contact" style="position:relative;overflow:hidden;background-color:#f9fafb;padding-top:6rem;padding-bottom:6rem;"><div style="position:relative;z-index:1;">
+        <div style="max-width:36rem;margin:0 auto;padding:0 1.5rem;">
+          <h3 style="font-size:1.5rem;font-weight:700;color:var(--ink, #000000);margin-bottom:0.5rem;">Ready to start your search?</h3>
+          <p style="font-size:0.875rem;color:var(--ink-secondary, #333333);margin-bottom:1.5rem;">Tell us what you're looking for. A Zumin agent will reach out within one business day.</p>
+          <form id="form-buycontact" onsubmit="return submitForm_buycontact(event)">
             
             
+        <div class="step-buycontact" data-step="0" style="display:block;">
+          
+          <div style="margin-bottom:0.75rem;"><label style="display:block;font-size:0.75rem;font-weight:600;color:var(--ink, #000000);margin-bottom:0.25rem;">Your name <span style="color:#dc2626;">*</span></label><input type="text" name="name" placeholder="Jane Smith" required style="width:100%;padding:0.5rem 0.75rem;border:1px solid #d1d5db;border-radius:0.5rem;font-size:0.875rem;" /></div><div style="margin-bottom:0.75rem;"><label style="display:block;font-size:0.75rem;font-weight:600;color:var(--ink, #000000);margin-bottom:0.25rem;">Phone</label><input type="tel" name="phone" placeholder="416-000-0000"  style="width:100%;padding:0.5rem 0.75rem;border:1px solid #d1d5db;border-radius:0.5rem;font-size:0.875rem;" /></div><div style="margin-bottom:0.75rem;"><label style="display:block;font-size:0.75rem;font-weight:600;color:var(--ink, #000000);margin-bottom:0.25rem;">Email <span style="color:#dc2626;">*</span></label><input type="email" name="email" placeholder="name@email.com" required style="width:100%;padding:0.5rem 0.75rem;border:1px solid #d1d5db;border-radius:0.5rem;font-size:0.875rem;" /></div><div style="margin-bottom:0.75rem;"><label style="display:block;font-size:0.75rem;font-weight:600;color:var(--ink, #000000);margin-bottom:0.25rem;">City or neighbourhood</label><input type="text" name="area" placeholder="Mississauga, Oakville..."  style="width:100%;padding:0.5rem 0.75rem;border:1px solid #d1d5db;border-radius:0.5rem;font-size:0.875rem;" /></div><div style="margin-bottom:0.75rem;"><label style="display:block;font-size:0.75rem;font-weight:600;color:var(--ink, #000000);margin-bottom:0.25rem;">Message</label><textarea name="message" placeholder="Budget, bedrooms, must-haves, timeline..."  style="width:100%;padding:0.5rem 0.75rem;border:1px solid #d1d5db;border-radius:0.5rem;font-size:0.875rem;" rows="4"></textarea></div>
+        </div>
+            <div id="err-buycontact" style="display:none;font-size:0.75rem;color:#dc2626;margin-bottom:0.5rem;"></div>
+            <div style="display:flex;gap:0.5rem;">
+              <button type="button" id="back-buycontact" onclick="stepBack_buycontact()" style="display:none;padding:0.625rem 1rem;border-radius:0.5rem;font-size:0.875rem;font-weight:600;border:1px solid #d1d5db;background:#fff;color:#374151;cursor:pointer;">Back</button>
+              <button type="submit" id="btn-buycontact" style="flex:1;padding:0.625rem 1rem;border-radius:0.5rem;font-size:0.875rem;font-weight:600;color:#fff;background:var(--ink, #000000);border:0;cursor:pointer;">Get Started</button>
+            </div>
+          </form>
+          <div id="ok-buycontact" style="display:none;text-align:center;padding:2rem 0;">
+            <h3 style="font-size:1.5rem;font-weight:700;color:var(--ink, #000000);margin-bottom:0.5rem;">We'll be in touch soon.</h3>
+            <p style="font-size:1rem;color:var(--ink-secondary, #333333);">A Zumin agent will reach out within one business day.</p>
           </div>
-        </div></div></section>
+        </div>
+        <script>
+          (function () {
+            var total = 1;
+            var idx = 0;
+            var values = {};
+            var btn = document.getElementById('btn-buycontact');
+            var back = document.getElementById('back-buycontact');
+            var err = document.getElementById('err-buycontact');
+            function showStep(i) {
+              document.querySelectorAll('.step-buycontact').forEach(function (el) {
+                el.style.display = (Number(el.getAttribute('data-step')) === i) ? 'block' : 'none';
+              });
+              document.querySelectorAll('.progress-buycontact').forEach(function (el) {
+                var pi = Number(el.getAttribute('data-pi'));
+                el.style.background = pi <= i ? "var(--ink, #000000)" : '#e5e7eb';
+              });
+              var c = document.getElementById('counter-buycontact');
+              if (c) c.textContent = 'Step ' + (i + 1) + ' of ' + total;
+              back.style.display = i > 0 ? 'inline-block' : 'none';
+              btn.textContent = (i >= total - 1) ? "Get Started" : "Next";
+            }
+            function captureStep(i) {
+              var stepEl = document.querySelector('.step-buycontact[data-step="' + i + '"]');
+              if (!stepEl) return;
+              stepEl.querySelectorAll('input,select,textarea').forEach(function (el) {
+                if (el.name) values[el.name] = el.value;
+              });
+            }
+            window.stepBack_buycontact = function () {
+              captureStep(idx);
+              idx = Math.max(0, idx - 1);
+              showStep(idx);
+            };
+            window.submitForm_buycontact = async function (e) {
+              e.preventDefault();
+              captureStep(idx);
+              if (idx < total - 1) { idx++; showStep(idx); return false; }
+              btn.disabled = true; btn.textContent = 'Sending…'; err.style.display = 'none';
+              try {
+                var caslEl = document.querySelector('input[name="casl_consent"]');
+                var casl = !!(caslEl && caslEl.checked);
+                var res = await fetch("https://rmnnyywyaymriplnijov.supabase.co/functions/v1/notify-connect-inquiry", {
+                  method: 'POST',
+                  headers: { 'Content-Type': 'application/json', 'Authorization': 'Bearer sb_publishable_TGIBvI_kSkkRcoMaM52VcQ_1o-ZDh70', 'apikey': 'sb_publishable_TGIBvI_kSkkRcoMaM52VcQ_1o-ZDh70' },
+                  body: JSON.stringify({
+                    name: values['name'] || '',
+                    email: values['email'] || '',
+                    phone: values['phone'] || '',
+                    message: values['message'] || '',
+                    connect_slug: "zuminrealestate",
+                    inquiry_type: "buying",
+                    source_url: window.location.href,
+                    casl_consent: casl
+                  })
+                });
+                var body = await res.json().catch(function () { return {}; });
+                if (!res.ok) throw new Error(body.error || ('HTTP ' + res.status));
+                document.getElementById('form-buycontact').style.display = 'none';
+                document.getElementById('ok-buycontact').style.display = 'block';
+              } catch (e2) {
+                err.textContent = e2.message || 'Could not send. Please try again.'; err.style.display = 'block';
+                btn.disabled = false; btn.textContent = "Get Started";
+              }
+              return false;
+            };
+            showStep(0);
+          })();
+        </script></div></section>
   </main>
   <footer style="background:#0f0f0f;color:#ffffff;">
       
-    <div style="background:#141414;border-bottom:1px solid #1f1f1f;">
-      <div style="max-width:80rem;margin:0 auto;padding:2.5rem 1.5rem;display:flex;flex-wrap:wrap;gap:1.5rem;align-items:center;">
-        <div style="flex-shrink:0;">
-          <p style="font-size:0.875rem;font-weight:800;color:#ffffff;margin:0 0 0.125rem;">Find your next home.</p>
-          <p style="font-size:0.75rem;color:rgba(255,255,255,0.4);margin:0;">Search Ontario MLS listings</p>
-        </div>
-        <form action="/buy" method="get" style="flex:1;min-width:18rem;max-width:36rem;display:flex;">
-          <input type="text" name="q" placeholder="City, neighbourhood, or postal code…" style="flex:1;padding:0.875rem 1rem;font-size:0.875rem;background:#1f1f1f;color:#fff;border:1px solid #2a2a2a;border-right:0;border-radius:0.75rem 0 0 0.75rem;outline:none;" />
-          <button type="submit" style="display:inline-flex;align-items:center;gap:0.5rem;padding:0.875rem 1.25rem;background:var(--brand, #FDB913);color:#fff;font-size:0.875rem;font-weight:700;border:0;border-radius:0 0.75rem 0.75rem 0;cursor:pointer;">Search</button>
-        </form>
-        <div style="display:flex;gap:0.5rem;flex-wrap:wrap;flex-shrink:0;">
-          <a href="/buy?q=Mississauga" style="font-size:0.75rem;font-weight:500;padding:0.375rem 0.75rem;border-radius:9999px;background:#1f1f1f;color:rgba(255,255,255,0.45);border:1px solid #2a2a2a;text-decoration:none;">Mississauga</a><a href="/buy?q=Brampton" style="font-size:0.75rem;font-weight:500;padding:0.375rem 0.75rem;border-radius:9999px;background:#1f1f1f;color:rgba(255,255,255,0.45);border:1px solid #2a2a2a;text-decoration:none;">Brampton</a><a href="/buy?q=Oakville" style="font-size:0.75rem;font-weight:500;padding:0.375rem 0.75rem;border-radius:9999px;background:#1f1f1f;color:rgba(255,255,255,0.45);border:1px solid #2a2a2a;text-decoration:none;">Oakville</a><a href="/buy?q=Toronto" style="font-size:0.75rem;font-weight:500;padding:0.375rem 0.75rem;border-radius:9999px;background:#1f1f1f;color:rgba(255,255,255,0.45);border:1px solid #2a2a2a;text-decoration:none;">Toronto</a>
-        </div>
-      </div>
-    </div>
       <div style="max-width:80rem;margin:0 auto;padding:3.5rem 1.5rem 2.5rem;">
         
     <div style="display:flex;flex-wrap:wrap;gap:2.5rem;padding-bottom:3rem;border-bottom:1px solid #1f1f1f;">
       
     <div style="flex:1.2;min-width:14rem;">
       <a href="/" style="display:inline-flex;align-items:center;gap:0.5rem;color:#ffffff;text-decoration:none;margin-bottom:1rem;">
-        <img src="https://rmnnyywyaymriplnijov.supabase.co/storage/v1/object/public/media/a5438c06-0dae-4900-9399-40e0c45cb6f8/1780943903880-26snpy.png" alt="" style="height:24px;width:auto;" />
+        <img src="https://rmnnyywyaymriplnijov.supabase.co/storage/v1/object/public/tenant-logos/zumin-re-logo-colour.png" alt="" style="height:24px;width:auto;" />
         
       </a>
-      
-      <a href="tel:+18772273251" style="display:flex;align-items:center;gap:0.5rem;font-size:0.75rem;color:rgba(255,255,255,0.5);text-decoration:none;margin-bottom:0.5rem;"><span style="color:var(--brand, #FDB913);">&#9742;</span>1-877-227-3251</a>
+      <p style="font-size:0.8125rem;line-height:1.55;color:rgba(255,255,255,0.5);margin:0 0 1rem;max-width:20rem;">Zumin Real Estate Centre — a full-service brokerage serving the GTA since 2016.</p>
+      <a href="tel:4163334100" style="display:flex;align-items:center;gap:0.5rem;font-size:0.75rem;color:rgba(255,255,255,0.5);text-decoration:none;margin-bottom:0.5rem;"><span style="color:var(--brand, #FDB913);">&#9742;</span>416-333-4100</a>
       <a href="mailto:info@zumin.ca" style="display:flex;align-items:center;gap:0.5rem;font-size:0.75rem;color:rgba(255,255,255,0.5);text-decoration:none;margin-bottom:0.5rem;"><span style="color:var(--brand, #FDB913);">&#9993;</span>info@zumin.ca</a>
-      <div style="display:flex;align-items:flex-start;gap:0.5rem;font-size:0.75rem;color:rgba(255,255,255,0.5);"><span style="color:var(--brand, #FDB913);margin-top:0.125rem;">&#9900;</span><span>5685 McLaughlin Rd, Mississauga, ON L5R 3K5</span></div>
+      <div style="display:flex;align-items:flex-start;gap:0.5rem;font-size:0.75rem;color:rgba(255,255,255,0.5);"><span style="color:var(--brand, #FDB913);margin-top:0.125rem;">&#9900;</span><span>5685 McLaughlin Rd, Mississauga, ON</span></div>
     </div>
       
-    <div style="flex:1;min-width:8rem;">
-      <h4 style="font-size:0.75rem;font-weight:600;text-transform:uppercase;letter-spacing:0.06em;color:var(--brand, #FDB913);margin:0 0 1.25rem;">Contact</h4>
-      <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:0.75rem;">
-        <li><a href="tel:+18772273251" style="font-size:0.875rem;color:rgba(255,255,255,0.6);text-decoration:none;">1-877-227-3251</a></li><li><a href="mailto:info@zumin.ca" style="font-size:0.875rem;color:rgba(255,255,255,0.6);text-decoration:none;">info@zumin.ca</a></li><li><a href="#" style="font-size:0.875rem;color:rgba(255,255,255,0.6);text-decoration:none;">5685 McLaughlin Rd, Mississauga, ON L5R 3K5</a></li>
-      </ul>
-    </div>
     <div style="flex:1;min-width:8rem;">
       <h4 style="font-size:0.75rem;font-weight:600;text-transform:uppercase;letter-spacing:0.06em;color:var(--brand, #FDB913);margin:0 0 1.25rem;">Services</h4>
       <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:0.75rem;">
-        <li><a href="/listings" style="font-size:0.875rem;color:rgba(255,255,255,0.6);text-decoration:none;">Browse Listings</a></li><li><a href="/agents" style="font-size:0.875rem;color:rgba(255,255,255,0.6);text-decoration:none;">Find an Agent</a></li><li><a href="/" style="font-size:0.875rem;color:rgba(255,255,255,0.6);text-decoration:none;">RNPL® Financing</a></li>
+        <li><a href="/buy" style="font-size:0.875rem;color:rgba(255,255,255,0.6);text-decoration:none;">Buy</a></li><li><a href="/sell" style="font-size:0.875rem;color:rgba(255,255,255,0.6);text-decoration:none;">Sell</a></li><li><a href="/rent" style="font-size:0.875rem;color:rgba(255,255,255,0.6);text-decoration:none;">Rent</a></li><li><a href="/renovate" style="font-size:0.875rem;color:rgba(255,255,255,0.6);text-decoration:none;">Renovate (RNPL®)</a></li><li><a href="/financing" style="font-size:0.875rem;color:rgba(255,255,255,0.6);text-decoration:none;">Financing</a></li><li><a href="/partner" style="font-size:0.875rem;color:rgba(255,255,255,0.6);text-decoration:none;">1% in Zumin Rewards</a></li>
+      </ul>
+    </div>
+    <div style="flex:1;min-width:8rem;">
+      <h4 style="font-size:0.75rem;font-weight:600;text-transform:uppercase;letter-spacing:0.06em;color:var(--brand, #FDB913);margin:0 0 1.25rem;">Discover</h4>
+      <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:0.75rem;">
+        <li><a href="/listings" style="font-size:0.875rem;color:rgba(255,255,255,0.6);text-decoration:none;">Browse Listings</a></li><li><a href="/rate-the-room" style="font-size:0.875rem;color:rgba(255,255,255,0.6);text-decoration:none;">Rate the Room</a></li><li><a href="/advantage-you" style="font-size:0.875rem;color:rgba(255,255,255,0.6);text-decoration:none;">Advantage Program</a></li><li><a href="/insights" style="font-size:0.875rem;color:rgba(255,255,255,0.6);text-decoration:none;">Insights</a></li><li><a href="/agents" style="font-size:0.875rem;color:rgba(255,255,255,0.6);text-decoration:none;">Find an Agent</a></li>
       </ul>
     </div>
     <div style="flex:1;min-width:8rem;">
       <h4 style="font-size:0.75rem;font-weight:600;text-transform:uppercase;letter-spacing:0.06em;color:var(--brand, #FDB913);margin:0 0 1.25rem;">Company</h4>
       <ul style="list-style:none;padding:0;margin:0;display:flex;flex-direction:column;gap:0.75rem;">
-        <li><a href="/" style="font-size:0.875rem;color:rgba(255,255,255,0.6);text-decoration:none;">About Us</a></li><li><a href="/agents" style="font-size:0.875rem;color:rgba(255,255,255,0.6);text-decoration:none;">Our Team</a></li>
+        <li><a href="/about" style="font-size:0.875rem;color:rgba(255,255,255,0.6);text-decoration:none;">About</a></li><li><a href="/careers" style="font-size:0.875rem;color:rgba(255,255,255,0.6);text-decoration:none;">Careers</a></li><li><a href="/join" style="font-size:0.875rem;color:rgba(255,255,255,0.6);text-decoration:none;">Join Us</a></li><li><a href="/contact" style="font-size:0.875rem;color:rgba(255,255,255,0.6);text-decoration:none;">Contact</a></li>
       </ul>
     </div>
     </div>
